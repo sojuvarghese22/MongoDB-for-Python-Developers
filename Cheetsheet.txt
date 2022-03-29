@@ -1,0 +1,36 @@
+                                                      Commands
+                                                      
+1. command                         Description
+2. show dbs                        show databases
+3. use db                          switch to database db
+4. show collections                Display current database collections
+5. filters(in altas gui)            used to filter from complete documents but used in altas gui
+
+                  Command related to "create"
+
+1. insertOne({"field":value)       insert one document 
+2. insertMany([{},{},{}])          insert more than one documents 
+
+                  Command related to "read"
+                  
+1. find()                          read complete data but diplay 20 documents and if want the left documents the type it which again will show 20 documents
+2. findOne()                       read ony first document
+
+                  Command related to "update"
+
+1. updateOne                       updates on first documents that matched the query
+2. updateMany                      updates on complete documents that matches the query
+
+                  Command related to "create"
+
+1. deleteOne                       deletes the first document that matches the query
+2. deleteMany                      deletes the complete document that matches the query
+
+                  Comparison operator
+ 
+1. $eg                             equal to 
+2. $ne                             not equal to 
+3. $gt                             greater than
+4. $gte                            greater than equal to                        
+5. $lt                             less than
+6. $lte                            less than equal to
